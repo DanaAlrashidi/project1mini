@@ -24,11 +24,6 @@ function App() {
     setAmount(amount + 1);
   }
 
-  // function buyItem2() {
-  //   setCurrency(currency - 40);
-  //   setAmount(amount + 2);
-  // }
-
   function autoClick() {
     if (currency >= 50) {
       setCurrency(currency - 50);
